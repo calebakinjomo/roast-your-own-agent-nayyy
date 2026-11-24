@@ -3,6 +3,7 @@
 
 Writes one roast line to /output/entry.txt (1-200 UTF-8 chars, one line).
 Deterministic: the entry is a fixed string; no randomness, no network, no time.
+Reviser touch (docstring only): entry text unchanged, output byte-identical.
 """
 
 import os
